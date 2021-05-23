@@ -2,7 +2,7 @@
 Powershell wrapper module for MobileIron MDM API.
 This was created to work with on-premise MobileIron service (not for Cloud edition
 
-```powershell
+```
 PS C:\tmp> Get-Command -Module PSMobileIron
 
 CommandType     Name                                               Version    Source
