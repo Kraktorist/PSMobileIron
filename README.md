@@ -1,5 +1,6 @@
 # PSMobileIron
-Powershell wrapper module for MobileIron MDM API.
+Powershell wrapper module for MobileIron MDM Core API.
+https://help.ivanti.com/mi/help/en_us/CORE/10.8.0.0/api1/LandingPage.htm
 This was created to work with on-premise MobileIron service (not for Cloud edition)
 
 ```
