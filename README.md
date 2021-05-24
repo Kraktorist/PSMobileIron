@@ -20,3 +20,40 @@ Function        Set-MILabel                                        0.0        PS
 Function        Unlock-MIDevice                                    0.0        PSMobileIron
 ```
 
+# How to get help
+```
+PS C:\tmp> Get-Help Add-MIDevice
+
+NAME
+    Add-MIDevice
+
+SYNOPSIS
+    Add a new MobileIron device
+
+
+SYNTAX
+    Add-MIDevice -Server <String> -Credential <PSCredential> -Platform <String> -UserId <String> -ImportUserFromLDAP
+    -PDA [-NotifyUser] [-NotifyUserBySMS] [<CommonParameters>]
+
+    Add-MIDevice -Server <String> -Credential <PSCredential> -Platform <String> -UserId <String> -ImportUserFromLDAP
+    -PhoneNumber <String> -CountryCode <Int32> -Operator <String> [-NotifyUser] [-NotifyUserBySMS] [<CommonParameters>]
+
+    Add-MIDevice -Server <String> -Credential <PSCredential> -Platform <String> -UserId <String> -PhoneNumber <String>
+    -CountryCode <Int32> -Operator <String> [-Firstname <String>] [-Surname <String>] [-Email <String>] [-NotifyUser]
+    [-NotifyUserBySMS] [<CommonParameters>]
+
+    Add-MIDevice -Server <String> -Credential <PSCredential> -Platform <String> -UserId <String> -PDA [-Firstname
+    <String>] [-Surname <String>] [-Email <String>] [-NotifyUser] [-NotifyUserBySMS] [<CommonParameters>]
+
+
+DESCRIPTION
+    Add a new MobileIron device
+
+
+RELATED LINKS
+
+REMARKS
+    To see the examples, type: "get-help Add-MIDevice -examples".
+    For more information, type: "get-help Add-MIDevice -detailed".
+    For technical information, type: "get-help Add-MIDevice -full".
+```
